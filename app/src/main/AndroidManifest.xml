@@ -12,9 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoWhatsapp">
         <activity
-            android:name=".CadastroActivity"
-            android:parentActivityName=".LoginActivity"
+            android:name=".PerfilActivity"
             android:exported="false" />
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false"
+            android:parentActivityName=".LoginActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

@@ -4,9 +4,13 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
         <item name="colorPrimary">@color/primaria</item>
+        <item name="actionOverflowButtonStyle">@style/ActionOverFlow</item>
 
 
 
+    </style>
+    <style name="ActionOverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="tint">@color/white</item>
     </style>
 
     <style name="Theme.ProjetoWhatsapp" parent="Base.Theme.ProjetoWhatsapp" />
